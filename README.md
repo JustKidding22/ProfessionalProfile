@@ -3,7 +3,7 @@
 # Purpose
 A website to showcase what I've learned so far from boot camp!
 
-Also preperation for being employee ready.
+Also preperation to be Employer-Competitive!
 As class progress the Professional Profile will continue to update.
 
 # Best Practice
