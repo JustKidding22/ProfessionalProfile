@@ -15,7 +15,7 @@ To accomodate all different device sizes we introduced Media Queries , Responsiv
 * CSS
 
 ## Website
-https://github.com/JustKidding22/ProfessionalProfile/
+https://justkidding22.github.io/ProfessionalProfile/
 
 
 ##Contribution
