@@ -1,59 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Under Construction</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>James Kim's Portfolio</title>
+  </head>
 
-<body>
-<!--Nav starts-->
+  <body>
+    <!-- Nav -->
     <header>
-        <h1>insert name</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="About-Me">About Me</a>
-                </li>
-                <li>
-                    <a href="Work">Work</a>
-                </li>
-                <li>
-                    <a href="Contact-Me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="Resume">Resume</a>
-                </li>
-            </ul>
-        </nav>
+      <h1>James Kim</h1>
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#work">My Work</a>
+        <a href="#contact">Contact Me</a>
+        <a href="./assets/resume.pdf">Resume</a>
+      </nav>
     </header>
-    <!--Nav End-->
 
-    <!--Hero-->
-    <section class="hero">
-        <img src="./assets/images/showcase.jpg" alt="abstract patterns">
+    <!-- Hero -->
+    <section class="hero-section">
+      <img src="./assets/images/me.jpeg" />
+      <div>
+        <h2>Learning Everyday</h2>
+      </div>
     </section>
-    <!--Hero-->
 
-    <section class="about-me">
-        <section class="content">
+    <!-- About Me -->
+    <main class="page-wrapper">
+      <section class="page-section" id="about">
         <h2>About Me</h2>
-        <p> Lets Work Hard ! Hustle Up ! Text ! text ! text text text text text text text text text text text 
-            text text text text text text text text text text text text text text text text text text text text 
-            text text text text text text text text text text text text text text text text text text text 
-            text text text text text text text text text text text text text text text text text text 
-            text text text text text text text text text text text text text text text text text text 
-        </p>
-        </section>
-
-        <section class="assets">
-            <h2>Work</h2>
+        <div>
+          <p>
             
-        </section>
-    
+I've always expressed much interest in devices and gadgets . The internet is a vast ocean of knowledge that I seek to comprehend but most importantly learn from. I've currently held down a sales position job for a majority of my professional career. I make plans to transition out of it and look for a new home in the world of coding, computing, developing, and programming. It'll be a long journey I'm sure but, along with it comes my ambition and curiosity to learn. Currently attending a boot camp course at The University of Texas at Austin for coding and programming.
+          </p>
+        </div>
+      </section>
 
-    </section>
-    <!--footer-->
-    <footer></footer>
+      <!-- Portfolio -->
+      <section class="page-section" id="work">
+        <h2>Work</h2>
+        <div class="grid-container">
+          <!-- Feature Project #1 -->
+          <a
+            href="https://justkidding22.github.io/run-buddy/"
+            class="grid-item run-buddy"
+          >
+            <div>
+              <h3>Run Buddy</h3>
+              <span>HTML, CSS</span>
+            </div>
+          </a>
+          <!-- Project #2 -->
+          <a
+            href="https://justkidding22.github.io/HoriseonChallenge/"
+            class="grid-item horiseon"
+          >
+            <div>
+              <h3>Horiseon</h3>
+              <span>HTML, CSS</span>
+            </div>
+          </a>
+          <!-- Project #3 -->
+          <a
+            href="https://github.com/JustKidding22/ProfessionalProfile"
+            class="grid-item portfolio"
+          >
+            <div>
+              <h3>Portfolio</h3>
+              <span>HTML, CSS</span>
+            </div>
+          </a>
+
+          <!-- Project #4 -->
+          <a
+            href="https://github.com/JustKidding22/justkidding22.github.io"
+            class="grid-item password"
+          >
+            <div>
+              <h3>Password</h3>
+              <span>HTML, JS</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="page-section contact" id="contact">
+        <h2>Contact Me</h2>
+        <div>
+          <address>
+            <!-- Github -->
+            <a href="https://github.com/JustKidding22">Github.</a>
+
+            <!-- Email -->
+            <a href="mailto:projdk90@gmail.com">Email.</a>
+          </address>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>❤️ Thanks for visiting.</p>
+      </footer>
+    </main>
+  </body>
+</html>
